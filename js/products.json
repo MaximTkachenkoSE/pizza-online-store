@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1,
+		"title": "Карлиона",
+		"weight": 500,
+		"price": 90,
+		"imgSrc": "https://i.ibb.co/nRvnH0w/image.jpg"
+	},
+	{
+		"id": 2,
+		"title": "Маракана",
+		"weight": 500,
+		"price": 90,
+		"imgSrc": "https://i.ibb.co/9TsVM13/image.jpg"
+	},
+	{
+		"id": 3,
+		"title": "Сицилия",
+		"weight": 450,
+		"price": 120,
+		"imgSrc": "https://i.ibb.co/kc91Phy/image.jpg"
+	},
+	{
+		"id": 4,
+		"title": "Мафия",
+		"weight": 550,
+		"price": 120,
+		"imgSrc": "https://i.ibb.co/fMtQ5Ns/image.jpg"
+	}
+]
