@@ -47,6 +47,7 @@ img {
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 38px;
 }
 
 .item-title {
@@ -215,7 +216,7 @@ img {
 	color: #EB5A1E;
 }
 
-.rouble {
+.hryvnia {
 	color: #EB5A1E;
 }
 

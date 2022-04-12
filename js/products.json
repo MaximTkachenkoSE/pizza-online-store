@@ -26,5 +26,173 @@
 		"weight": 550,
 		"price": 120,
 		"imgSrc": "https://i.ibb.co/fMtQ5Ns/image.jpg"
+	},
+	{
+		"id": 5,
+		"title": "Капричеза",
+		"weight": 500,
+		"price": 90,
+		"imgSrc": "https://i.ibb.co/s19MgqW/image.jpg"
+	},
+	{
+		"id": 6,
+		"title": "Неаполитана",
+		"weight": 550,
+		"price": 100,
+		"imgSrc": "https://i.ibb.co/N63NhvZ/image.jpg"
+	},
+	{
+		"id": 7,
+		"title": "Папперочино",
+		"weight": 550,
+		"price": 100,
+		"imgSrc": "https://i.ibb.co/VTmbfk1/image.jpg"
+	},
+	{
+		"id": 8,
+		"title": "Санта Лючия",
+		"weight": 550,
+		"price": 100,
+		"imgSrc": "https://i.ibb.co/743yvDm/image.jpg"
+	},
+	{
+		"id": 9,
+		"title": "Карбонара",
+		"weight": 450,
+		"price": 120,
+		"imgSrc": "https://i.ibb.co/g9TVbdS/image.jpg"
+	},
+	{
+		"id": 10,
+		"title": "4 сезона",
+		"weight": 850,
+		"price": 210,
+		"imgSrc": "https://i.ibb.co/7zRxytR/4.jpg"
+	},
+	{
+		"id": 11,
+		"title": "Ортолана",
+		"weight": 550,
+		"price": 120,
+		"imgSrc": "https://i.ibb.co/bzLGQ2c/image.jpg"
+	},
+	{
+		"id": 12,
+		"title": "Прованс",
+		"weight": 550,
+		"price": 170,
+		"imgSrc": "https://i.ibb.co/2syLX5k/image.jpg"
+	},
+	{
+		"id": 13,
+		"title": "4 сыра",
+		"weight": 550,
+		"price": 130,
+		"imgSrc": "https://i.ibb.co/ZzbH33Y/4.jpg"
+	},
+	{
+		"id": 14,
+		"title": "Гаваи",
+		"weight": 450,
+		"price": 100,
+		"imgSrc": "https://i.ibb.co/DzWby7M/image.jpg"
+	},
+	{
+		"id": 15,
+		"title": "Буфалина",
+		"weight": 850,
+		"price": 210,
+		"imgSrc": "https://i.ibb.co/9gHkh4d/image.jpg"
+	},
+	{
+		"id": 16,
+		"title": "Монтанара",
+		"weight": 800,
+		"price": 200,
+		"imgSrc": "https://i.ibb.co/f0ttr9r/image.jpg"
+	},
+	{
+		"id": 17,
+		"title": "Груша Дор блю",
+		"weight": 480,
+		"price": 120,
+		"imgSrc": "https://i.ibb.co/DVKdR1t/image.jpg"
+	},
+	{
+		"id": 18,
+		"title": "Кампанелла",
+		"weight": 500,
+		"price": 120,
+		"imgSrc": "https://i.ibb.co/pXK13b7/image.jpg"
+	},
+	{
+		"id": 19,
+		"title": "Маргарита",
+		"weight": 400,
+		"price": 75,
+		"imgSrc": "https://i.ibb.co/2KJdPj2/image.jpg"
+	},
+	{
+		"id": 20,
+		"title": "Милана",
+		"weight": 550,
+		"price": 120,
+		"imgSrc": "https://i.ibb.co/HBc1qqK/image.jpg"
+	},
+	{
+		"id": 21,
+		"title": "Крудо",
+		"weight": 900,
+		"price": 225,
+		"imgSrc": "https://i.ibb.co/9rdv6Nr/image.jpg"
+	},
+	{
+		"id": 22,
+		"title": "Фитнес",
+		"weight": 800,
+		"price": 190,
+		"imgSrc": "https://i.ibb.co/9h7g0Wm/image.jpg"
+	},
+	{
+		"id": 23,
+		"title": "Парма",
+		"weight": 525,
+		"price": 140,
+		"imgSrc": "https://i.ibb.co/WPXyhzm/image.jpg"
+	},
+	{
+		"id": 24,
+		"title": "Веган",
+		"weight": 480,
+		"price": 120,
+		"imgSrc": "https://i.ibb.co/P1QPNzW/image.jpg"
+	},
+	{
+		"id": 25,
+		"title": "Море-монти",
+		"weight": 500,
+		"price": 140,
+		"imgSrc": "https://i.ibb.co/VNJ4SRw/image.jpg"
+	},
+	{
+		"id": 26,
+		"title": "Дьябола",
+		"weight": 500,
+		"price": 140,
+		"imgSrc": "https://i.ibb.co/Z2ftZYc/image.jpg"
+	},
+	{
+		"id": 27,
+		"title": "Феличита",
+		"weight": 600,
+		"price": 140,
+		"imgSrc": "https://i.ibb.co/41wSpp5/image.jpg"
+	},
+	{
+		"id": 28,
+		"title": "Фрутти ди марэ",
+		"weight": 530,
+		"price": 170,
+		"imgSrc": "https://i.ibb.co/xCZP253/image.jpg"
 	}
 ]

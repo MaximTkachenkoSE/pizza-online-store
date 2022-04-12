@@ -6,7 +6,7 @@ getProducts();
 // Асинхронная функция получения данных из файла products.json
 async function getProducts() {
 	// Получаем данные из products.json
-    const response = await fetch('https://api.jsonbin.io/b/625540d1d20ace068f97125e');
+    const response = await fetch('https://api.jsonbin.io/b/62558fe17b69e806cf4c6dfa');
     // Парсим данные из JSON формата в JS
     const productsArray = await response.json();
     // Запускаем ф-ю рендера (отображения товаров)
@@ -38,7 +38,7 @@ function renderProducts(productsArray) {
 								</div>
 
 								<button data-cart type="button" class="btn btn-block btn-outline-warning">
-									+ в корзину
+									добавить в корзину
 								</button>
 
 							</div>
