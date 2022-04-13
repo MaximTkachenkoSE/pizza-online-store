@@ -1,21 +1,32 @@
 const productsContainer = document.querySelector('#products-container');
 
-// Запускаем getProducts
-getProducts();
+let productsArray = [];
+// Получаем данные из products.json
+fetch('https://api.jsonbin.io/b/62558fe17b69e806cf4c6dfa')
+	.then(response => response.json())  // Конвертируем данные из JSON формата в JS массив
+	.then(data => {
+		productsArray = data;
+		renderProducts(productsArray);// Запускаем функцию рендера (отображения товаров)
+	})
+	.catch(() => {
+		renderError();
+})
 
-// Асинхронная функция получения данных из файла products.json
-async function getProducts() {
-	// Получаем данные из products.json
-    const response = await fetch('https://api.jsonbin.io/b/62558fe17b69e806cf4c6dfa');
-    // Парсим данные из JSON формата в JS
-    const productsArray = await response.json();
-    // Запускаем ф-ю рендера (отображения товаров)
-	renderProducts(productsArray);
+function renderError() {
+    const html = `
+    <div class="error-container">
+        <div class="error-message">
+            <h3>Ошибка. Не удалось получить данные из сервера.</h3>
+        </div>
+    </div>
+    `;
+
+    document.getElementById("error").innerHTML = html;
 }
 
 function renderProducts(productsArray) {
     productsArray.forEach(function (item) {
-        const productHTML = `<div class="col-md-6">
+        const productHTML = `<div class="col-md-4">
 						<div class="card mb-4" data-id="${item.id}">
 							<img class="product-img" src="${item.imgSrc}" alt="">
 							<div class="card-body text-center">

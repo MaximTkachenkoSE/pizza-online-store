@@ -68,13 +68,18 @@
 					<!-- Оформить заказ -->
 					<div id="order-form" class="card-body border-top none">
 						<h5 class="card-title">Оформить заказ</h4>
-						<form>
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Оставьте ваш номер телефона">
-							</div>
-							<button type="submit" class="btn btn-primary">Отправить</button>
+						<form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field"
+						onSubmit="submit" action="/success/">
+						  <div class="form-group">
+							<input type="tel" class="form-control" 
+							placeholder="Оставьте ваш номер телефона" name="phoneNumber" required 
+							maxlength="10" title="10 цифровый телефонный номер" pattern="[0-9]{10}">
+						  </div>
+						  <button type="submit" class="btn btn-primary">Отправить</button>
+						  <input class="d-none" name="bot-field">
 						</form>
-					</div>
+					  </div>
+					
 					<!-- // Оформить заказ -->
 
 				</div>
@@ -84,7 +89,8 @@
 
 		</div>
 	</div>
-
+	<div id="error"></div>
+	
 	<!-- Подключаем скрипты -->
 
 	<script src="./js/renderProducts.js"></script>
