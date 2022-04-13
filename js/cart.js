@@ -18,7 +18,6 @@ window.addEventListener('click', function (event) {
 			price: card.querySelector('.price__currency').innerText,
 			counter: card.querySelector('[data-counter]').innerText,
 		};
-
 		// Проверять если ли уже такой товар в корзине
 		const itemInCart = cartWrapper.querySelector(`[data-id="${productInfo.id}"]`);
 
